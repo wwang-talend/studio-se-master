@@ -105,15 +105,16 @@
 			<version>1.9.13</version>
 		</dependency>
 
-		<!-- Avro and dependencies -->
-		<!-- To be replaced when avro will be available -->
-		<!-- from servicemix with less dependencies -->
+		<!-- Avro with minimum depdencies -->
 		<dependency>
 			<groupId>org.apache.servicemix.bundles</groupId>
 			<artifactId>org.apache.servicemix.bundles.avro</artifactId>
-			<version>1.8.0_1</version>
+			<version>1.8.2_1</version>
 		</dependency>
 
+		<!-- Avro and dependencies -->
+		<!-- Kept just in case someone using this -->
+		<!-- above servicemix has less dependencies -->
 		<dependency>
 			<groupId>org.apache.avro</groupId>
 			<artifactId>avro</artifactId>
