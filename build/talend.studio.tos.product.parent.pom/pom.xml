@@ -110,7 +110,7 @@
                                 <artifactItem>
                                     <groupId>${project.groupId}</groupId>
                                     <artifactId>eclipse-launcher-binaries</artifactId>
-                                    <version>4.4.1d</version>
+                                    <version>4.4.1e</version>
                                     <type>zip</type>
                                     <overWrite>true</overWrite>
                                     <outputDirectory>${studio.dir}</outputDirectory>
