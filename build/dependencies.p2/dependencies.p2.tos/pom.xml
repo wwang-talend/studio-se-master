@@ -177,12 +177,6 @@
 		</dependency>
 		<dependency>
 			<groupId>org.talend.components</groupId>
-			<artifactId>components-dataprep</artifactId>
-			<version>${components.version}</version>
-			<classifier>bundle</classifier>
-		</dependency>
-		<dependency>
-			<groupId>org.talend.components</groupId>
 			<artifactId>components-splunk</artifactId>
 			<version>${components.version}</version>
 			<classifier>bundle</classifier>
@@ -192,13 +186,7 @@
 			<artifactId>components-jira</artifactId>
 			<version>${components.version}</version>
 			<classifier>bundle</classifier>
-		</dependency>
-        <dependency>
-            <groupId>org.talend.components</groupId>
-            <artifactId>components-datastewardship</artifactId>
-            <version>0.16.2</version>
-            <classifier>bundle</classifier>
-        </dependency>		
+		</dependency>	
 		<!-- to avoid updatin the complete eclipse target platform we add these 
 			single dependencies -->
         <dependency>
