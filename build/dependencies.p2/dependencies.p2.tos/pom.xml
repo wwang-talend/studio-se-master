@@ -11,11 +11,6 @@
 	<artifactId>dependencies.p2.tos</artifactId>
 	<packaging>pom</packaging>
 
-	<properties>
-		<components.version>0.16.1</components.version>
-		<daikon.version>0.14.1</daikon.version>
-	</properties>
-
 	<dependencies>
 		<dependency>
 			<groupId>org.ops4j.pax.url</groupId>
