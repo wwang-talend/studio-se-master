@@ -203,7 +203,7 @@
 		</dependency>
 		<dependency>
 			<groupId>org.talend.components</groupId>
-			<artifactId>components-marketo</artifactId>
+			<artifactId>components-marketo-definition</artifactId>
 			<version>${components.version}</version>
 			<classifier>bundle</classifier>
 		</dependency>
