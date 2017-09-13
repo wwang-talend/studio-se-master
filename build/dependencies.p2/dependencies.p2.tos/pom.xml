@@ -20,37 +20,37 @@
 		<dependency>
 			<groupId>org.talend.dataquality</groupId>
 			<artifactId>dataquality-common</artifactId>
-			<version>1.7.2-SNAPSHOT</version>
+			<version>${dataquality.lib.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.talend.dataquality</groupId>
 			<artifactId>dataquality-semantic-model</artifactId>
-			<version>1.7.2-SNAPSHOT</version>
+			<version>${dataquality.lib.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.talend.dataquality</groupId>
 			<artifactId>dataquality-semantic</artifactId>
-			<version>1.7.2-SNAPSHOT</version>
+			<version>${dataquality.lib.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.talend.dataquality</groupId>
 			<artifactId>dataquality-statistics</artifactId>
-			<version>1.7.2-SNAPSHOT</version>
+			<version>${dataquality.lib.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.talend.dataquality</groupId>
 			<artifactId>dataquality-record-linkage</artifactId>
-			<version>3.4.2-SNAPSHOT</version>
+			<version>${dataquality.lib.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.talend.dataquality</groupId>
 			<artifactId>dataquality-standardization</artifactId>
-			<version>3.4.2-SNAPSHOT</version>
+			<version>${dataquality.lib.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.talend.dataquality</groupId>
 			<artifactId>dataquality-sampling</artifactId>
-			<version>2.5.2-SNAPSHOT</version>
+			<version>${dataquality.lib.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.talend.daikon</groupId>
