@@ -4,12 +4,13 @@
 	<parent>
 		<groupId>org.talend.studio</groupId>
 		<artifactId>tos-products-parent-pom</artifactId>
-		<version>7.0.1-SNAPSHOT</version>
+		<version>7.0.1-M1</version>
 		<relativePath>../talend.studio.tos.product.parent.pom</relativePath>
 	</parent>
 
 	<artifactId>org.talend.studio.tos.dq.product</artifactId>
 	<packaging>eclipse-repository</packaging>
+	<version>7.0.1.M1</version>
 	<build>
 		<plugins>
 			<plugin>
