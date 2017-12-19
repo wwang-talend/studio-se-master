@@ -4,12 +4,13 @@
 	<parent>
 		<groupId>org.talend.studio</groupId>
 		<artifactId>parent-pom</artifactId>
-		<version>7.0.1-SNAPSHOT</version>
+		<version>7.0.1-M2</version>
 		<relativePath />
 	</parent>
 
 	<artifactId>talend-tos-p2-repo</artifactId>
 	<packaging>eclipse-repository</packaging>
+	<version>7.0.1.M2</version>
 
 	<properties>
 		<product.final.name>${launcher.prefix}-${product.timestamp}-V${product.version}${revision.filename}</product.final.name>
