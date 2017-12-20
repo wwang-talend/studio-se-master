@@ -58,6 +58,11 @@
 			<version>${daikon.version}</version>
 			<classifier>bundle</classifier>
 		</dependency>
+		<dependency>
+			<groupId>org.talend.daikon</groupId>
+			<artifactId>multitenant-core</artifactId>
+			<version>${daikon.version}</version>
+		</dependency>
 		<!-- daikon dependencies -->
 		<dependency>
 			<groupId>com.cedarsoftware</groupId>
