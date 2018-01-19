@@ -228,6 +228,18 @@
 		</dependency>
 		<dependency>
 			<groupId>org.talend.components</groupId>
+			<artifactId>components-marklogic-definition</artifactId>
+			<version>${components.version}</version>
+			<classifier>bundle</classifier>
+		</dependency>
+		<dependency>
+			<groupId>org.talend.components</groupId>
+			<artifactId>components-jdbc-definition</artifactId>
+			<version>${components.version}</version>
+			<classifier>bundle</classifier>
+		</dependency>
+		<dependency>
+			<groupId>org.talend.components</groupId>
 			<artifactId>components-snowflake</artifactId>
 			<version>${components.version}</version>
 			<classifier>bundle</classifier>
