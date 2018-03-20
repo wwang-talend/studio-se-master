@@ -272,6 +272,11 @@
 			<version>${components.version}</version>
 			<classifier>bundle</classifier>
 		</dependency>
+		<dependency>
+			<groupId>commons-codec</groupId>
+			<artifactId>commons-codec</artifactId>
+			<version>1.10</version>
+		</dependency>
 		<!-- to avoid updatin the complete eclipse target platform we add these
 			single dependencies -->
         <dependency>
