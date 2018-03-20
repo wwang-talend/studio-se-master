@@ -10,7 +10,7 @@
     <properties>
         <talend.nexus.host>https://artifacts-oss.talend.com</talend.nexus.host>
         <components.version>0.22.0-SNAPSHOT</components.version>
-        <daikon.version>0.22.0-SNAPSHOT</daikon.version>
+        <daikon.version>0.23.0-SNAPSHOT</daikon.version>
         <dataquality.lib.version>5.0.1-SNAPSHOT</dataquality.lib.version>
     </properties>
 
