@@ -11,7 +11,7 @@
         <talend.nexus.host>https://artifacts-oss.talend.com</talend.nexus.host>
         <components.version>0.23.1</components.version>
         <daikon.version>0.23.0</daikon.version>
-        <dataquality.lib.version>5.0.3-SNAPSHOT</dataquality.lib.version>
+        <dataquality.lib.version>5.1.0-SNAPSHOT</dataquality.lib.version>
     </properties>
 
     <distributionManagement>
