@@ -67,6 +67,11 @@
 		</dependency>
 		<dependency>
 			<groupId>org.talend.dataquality</groupId>
+			<artifactId>dataquality-tokenization</artifactId>
+			<version>${dataquality.lib.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.talend.dataquality</groupId>
 			<artifactId>dataquality-standardization</artifactId>
 			<version>${dataquality.lib.version}</version>
 		</dependency>
