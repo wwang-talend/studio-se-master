@@ -238,7 +238,7 @@
 		</dependency>
 		<dependency>
 			<groupId>org.talend.components</groupId>
-			<artifactId>components-snowflake</artifactId>
+			<artifactId>components-snowflake-definition</artifactId>
 			<version>${components.version}</version>
 			<classifier>bundle</classifier>
 		</dependency>
