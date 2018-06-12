@@ -67,7 +67,7 @@
 		</dependency>
 		<dependency>
 			<groupId>org.talend.dataquality</groupId>
-			<artifactId>dataquality-tokenization</artifactId>
+			<artifactId>dataquality-text-japanese</artifactId>
 			<version>${dataquality.lib.version}</version>
 		</dependency>
 		<dependency>
