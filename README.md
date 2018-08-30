@@ -4,7 +4,6 @@ http://www.talend.com
 ![alt text](https://www.talend.com/wp-content/uploads/2016/07/talend-logo.png "Talend")
 
 > Content
-==========
 
 Master repos using gitslave for aggregating the full Talend Studio open source repositories
 
