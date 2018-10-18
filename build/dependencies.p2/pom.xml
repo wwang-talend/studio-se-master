@@ -9,7 +9,7 @@
     <packaging>pom</packaging>
     <properties>
         <talend.nexus.host>https://artifacts-oss.talend.com</talend.nexus.host>
-        <components.version>0.25.0-SNAPSHOT</components.version>
+        <components.version>0.25.0</components.version>
         <daikon.version>0.26.1</daikon.version>
         <dataquality.lib.version>6.1.2</dataquality.lib.version>
     </properties>
