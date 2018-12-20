@@ -11,15 +11,17 @@
    </configIni>
 
    <features>
-      <feature id="org.talend.fragment.jars.feature"/>
+      <feature id="org.talend.fragment.jars.common.feature"/>
+      <feature id="org.talend.fragment.jars.di.feature"/>
+      <feature id="org.talend.fragment.jars.dq.feature"/>
       <feature id="org.talend.rcp.branding.tos.bigdata.feature"/>
 	  <feature id="org.talend.rcp.branding.tos.feature"/>
 	  <feature id="org.talend.rcp.branding.top.feature"/>
 	  <feature id="org.talend.rcp.branding.esbstandard.feature"/>
 	  <feature id="org.talend.rcp.branding.tombundle.feature"/>
 	  <feature id="org.talend.rcp.branding.tos.test.feature"/>
+	  <feature id="org.talend.mdm.tom.test.feature"/>
 	  <feature id="org.talend.babel.all.tos.feature"/>
-	  <feature id="org.talend.test.tos.feature"/>
 	  <feature id="org.talend.bigdata.se.test.feature"/>
 	  <feature id="org.talend.esb.tooling.test.feature"/>
    </features>
