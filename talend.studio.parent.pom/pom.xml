@@ -81,6 +81,11 @@
             <layout>p2</layout>
         </repository>
         <repository>
+            <id>swtbot</id>
+            <url>https://artifacts-oss.talend.com/nexus/content/unzip/TalendP2UnzipOpenSourceRelease/org/talend/repo/talend-swtbot/2.7.0/talend-swtbot-2.7.0.zip-unzip</url>
+            <layout>p2</layout>
+        </repository>
+        <repository>
             <id>talend_open</id>
             <releases>
                 <enabled>true</enabled>
