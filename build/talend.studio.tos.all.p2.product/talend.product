@@ -1,62 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?pde version="3.5"?>
 
-<product name="Talend Open Studio" uid="org.talend.studio.tos.all.p2.product" id="org.talend.rcp.branding.tos.all.p2.product" application="org.talend.rcp.branding.tos.application" useFeatures="true" includeLaunchers="false"> 
-  <configIni use="default"> 
-    <linux>config.ini</linux>  
-    <macosx>config.ini</macosx>  
-    <solaris>config.ini</solaris>  
-    <win32>config.ini</win32> 
-  </configIni>  
-  <features> 
-    <feature id="org.talend.fragment.jars.common.feature"/>  
-    <feature id="org.talend.fragment.jars.di.feature"/>  
-    <feature id="org.talend.fragment.jars.dq.feature"/>  
-    <feature id="org.talend.rcp.branding.tos.bigdata.feature"/>  
-    <feature id="org.talend.rcp.branding.tos.feature"/>  
-    <feature id="org.talend.rcp.branding.top.feature"/>  
-    <feature id="org.talend.rcp.branding.esbstandard.feature"/>  
-    <feature id="org.talend.rcp.branding.tombundle.feature"/>  
-    <feature id="org.talend.rcp.branding.tos.test.feature"/>  
-    <feature id="org.talend.mdm.tom.test.feature"/>  
-    <feature id="org.talend.babel.all.tos.feature"/>  
-    <feature id="org.talend.bigdata.se.test.feature"/>  
-    <feature id="org.talend.esb.tooling.test.feature"/>  
-    <feature id="org.talend.camel.core.feature"/>
-    <feature id="org.talend.camel.designer.feature"/>
-    <feature id="org.talend.camel.feature"/>
-    <feature id="org.talend.commons.feature"/>
-    <feature id="org.talend.core.feature"/>
-    <feature id="org.talend.designer.business.feature"/>
-    <feature id="org.talend.designer.feature"/>
-    <feature id="org.talend.esb.tooling.feature"/>
-    <feature id="org.talend.esb.tooling.rs.provider.feature"/>
-    <feature id="org.talend.esb.tooling.ws.consumer.feature"/>
-    <feature id="org.talend.esb.tooling.ws.provider.feature"/>
-    <feature id="org.talend.esbstandard.feature"/>
-    <feature id="org.talend.hadoop.distribution.feature"/>
-    <feature id="org.talend.help.feature"/>
-    <feature id="org.talend.jdt.feature"/>
-    <feature id="org.talend.libraries.jdbc.feature"/>
-    <feature id="org.talend.m2e.feature"/>
-    <feature id="org.talend.model.migration.feature"/>
-    <feature id="org.talend.platform.feature"/>
-    <feature id="org.talend.rcp.feature"/>
-    <feature id="org.talend.repository.feature"/>
-    <feature id="org.talend.repository.services.feature"/>
-    <feature id="org.talend.sbi.feature"/>
-    <feature id="org.talend.spagic.feature"/>
-    <feature id="org.talend.tom.feature"/>
-    <feature id="org.talend.top.feature"/>
-    <feature id="org.talend.top.libraries.feature"/>
-    <feature id="org.talend.tos.bigdata.feature"/>
-    <feature id="org.talend.tos.bigdata.libraries.feature"/>
-    <feature id="org.talend.tos.components.feature"/>
-    <feature id="org.talend.tos.core.feature"/>
-    <feature id="org.talend.tos.feature"/>
-    <feature id="org.talend.tos.libraries.feature"/>
-    <feature id="org.talend.update.p2.feature"/>
-    <feature id="org.talend.updates.feature"/>
-    <feature id="org.talend.utils.feature"/>
-  </features> 
+<product name="Talend Open Studio" uid="org.talend.studio.tos.all.p2.product" id="org.talend.rcp.branding.tos.all.p2.product" application="org.talend.rcp.branding.tos.application" useFeatures="true" includeLaunchers="false">
+
+   <configIni use="default">
+      <linux>config.ini</linux>
+      <macosx>config.ini</macosx>
+      <solaris>config.ini</solaris>
+      <win32>config.ini</win32>
+   </configIni>
+
+   <plugins>
+   </plugins>
+
+   <features>
+      <feature id="org.talend.fragment.jars.common.feature"/>
+      <feature id="org.talend.fragment.jars.di.feature"/>
+      <feature id="org.talend.fragment.jars.dq.feature"/>
+      <feature id="org.talend.rcp.branding.tos.bigdata.feature"/>
+      <feature id="org.talend.rcp.branding.tos.feature"/>
+      <feature id="org.talend.rcp.branding.top.feature"/>
+      <feature id="org.talend.rcp.branding.esbstandard.feature"/>
+      <feature id="org.talend.rcp.branding.tombundle.feature"/>
+      <feature id="org.talend.rcp.branding.tos.test.feature"/>
+      <feature id="org.talend.mdm.tom.test.feature"/>
+      <feature id="org.talend.babel.all.tos.feature"/>
+      <feature id="org.talend.bigdata.se.test.feature"/>
+      <feature id="org.talend.esb.tooling.test.feature"/>
+      <feature id="org.talend.camel.core.feature"/>
+      <feature id="org.talend.camel.designer.feature"/>
+      <feature id="org.talend.camel.feature"/>
+      <feature id="org.talend.commons.feature"/>
+      <feature id="org.talend.core.feature"/>
+      <feature id="org.talend.designer.business.feature"/>
+      <feature id="org.talend.designer.feature"/>
+      <feature id="org.talend.esb.tooling.feature"/>
+      <feature id="org.talend.esb.tooling.rs.provider.feature"/>
+      <feature id="org.talend.esb.tooling.ws.consumer.feature"/>
+      <feature id="org.talend.esb.tooling.ws.provider.feature"/>
+      <feature id="org.talend.esbstandard.feature"/>
+      <feature id="org.talend.hadoop.distribution.feature"/>
+      <feature id="org.talend.help.feature"/>
+      <feature id="org.talend.jdt.feature"/>
+      <feature id="org.talend.libraries.jdbc.feature"/>
+      <feature id="org.talend.m2e.feature"/>
+      <feature id="org.talend.model.migration.feature"/>
+      <feature id="org.talend.platform.feature"/>
+      <feature id="org.talend.rcp.feature"/>
+      <feature id="org.talend.repository.feature"/>
+      <feature id="org.talend.repository.services.feature"/>
+      <feature id="org.talend.sbi.feature"/>
+      <feature id="org.talend.spagic.feature"/>
+      <feature id="org.talend.tom.feature"/>
+      <feature id="org.talend.top.feature"/>
+      <feature id="org.talend.top.libraries.feature"/>
+      <feature id="org.talend.tos.bigdata.feature"/>
+      <feature id="org.talend.tos.bigdata.libraries.feature"/>
+      <feature id="org.talend.tos.components.feature"/>
+      <feature id="org.talend.tos.core.feature"/>
+      <feature id="org.talend.tos.feature"/>
+      <feature id="org.talend.tos.libraries.feature"/>
+      <feature id="org.talend.update.p2.feature"/>
+      <feature id="org.talend.updates.feature"/>
+      <feature id="org.talend.utils.feature"/>
+      <feature id="org.talend.dataquality.se.test.feature"/>
+   </features>
+
+
 </product>
