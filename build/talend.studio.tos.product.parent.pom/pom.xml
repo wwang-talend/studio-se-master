@@ -554,7 +554,11 @@
                                                 <echo file="${storage}/lastnb.txt" append="true">http://newbuild.talend.com/builds/${product.build.path}/${product.final.name}.zip${line.separator}</echo>
                                             </then>
                                         </if>
-                                        <checksum file="${product.dir}/${product.final.name}.zip" />
+                                        <exec executable="openssl" dir="${product.dir}">
+                                            <arg line="dgst" />
+                                            <arg line="-sha256" />
+                                            <arg line="${product.final.name}.zip"/>
+                                        </exec>
                                     </target>
                                 </configuration>
                                 <goals>
