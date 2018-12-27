@@ -472,8 +472,7 @@
                                 <configuration>
                                     <target>
                                         <taskdef resource="net/sf/antcontrib/antcontrib.properties" classpathref="maven.plugin.classpath" />
-                                        <propertyregex property="product.version.short" input="${product.version}" regexp="\." replace="" global="true" casesensitive="false" override="true" />
-                                        <property name="product.build.path" value="${product.build.id}/${storage.dir}/V${product.version}${revision.filename}/${storage.dir}_${product.version.short}" />
+                                        <property name="product.build.path" value="${product.build.id}/${storage.dir}/V${product.version}${revision.filename}" />
                                         <property name="product.dir" value="${storage}/${product.build.path}" />
                                         <mkdir dir="${product.dir}" />
                                         <echo>Moving product ZIP ${project.build.directory}/products/${product.final.name}.zip to ${product.dir}</echo>
