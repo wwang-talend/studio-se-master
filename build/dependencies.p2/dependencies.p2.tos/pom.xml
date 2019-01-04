@@ -60,6 +60,13 @@
 			<artifactId>dataquality-semantic</artifactId>
 			<version>${dataquality.lib.version}</version>
 		</dependency>
+		<!-- semantic dependencies -->
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-math3</artifactId>
+			<version>3.4.1</version>
+		</dependency>
+		<!-- semantic dependencies -->
 		<dependency>
 			<groupId>org.talend.dataquality</groupId>
 			<artifactId>dataquality-statistics</artifactId>
