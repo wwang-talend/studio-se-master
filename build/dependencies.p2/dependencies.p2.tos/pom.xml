@@ -92,11 +92,6 @@
 			<classifier>bundle</classifier>
 		</dependency>
 		<dependency>
-			<groupId>org.talend.daikon.exception</groupId>
-			<artifactId>daikon-exception</artifactId>
-			<classifier>bundle</classifier>
-		</dependency>
-		<dependency>
 			<groupId>org.talend.daikon</groupId>
 			<artifactId>multitenant-core</artifactId>
 			<version>${daikon.version}</version>
