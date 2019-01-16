@@ -92,7 +92,7 @@
 			<classifier>bundle</classifier>
 		</dependency>
 		<dependency>
-			<groupId>org.talend.daikon.exception</groupId>
+			<groupId>org.talend.daikon</groupId>
 			<artifactId>daikon-exception</artifactId>
 			<version>${daikon.version}</version>
 			<classifier>bundle</classifier>
