@@ -72,6 +72,11 @@
 		</dependency>
 		<dependency>
 			<groupId>org.talend.dataquality</groupId>
+			<artifactId>dataquality-converters</artifactId>
+			<version>${dataquality.lib.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.talend.dataquality</groupId>
 			<artifactId>dataquality-text-japanese</artifactId>
 			<version>${dataquality.lib.version}</version>
 		</dependency>
