@@ -15,5 +15,15 @@
       <!--<feature id="org.talend.babel.all.tos.feature"/>-->
    </features>
 
+   <configurations>
+      <plugin id="org.apache.felix.scr" autoStart="true" startLevel="2" />
+      <plugin id="org.eclipse.core.runtime" autoStart="true" startLevel="0" />
+      <plugin id="org.eclipse.equinox.common" autoStart="true" startLevel="2" />
+      <plugin id="org.eclipse.equinox.event" autoStart="true" startLevel="2" />
+      <plugin id="org.eclipse.equinox.simpleconfigurator" autoStart="true" startLevel="1" />
+      <plugin id="org.ops4j.pax.url.mvn" autoStart="true" startLevel="0" />
+      <plugin id="org.talend.components.api.service.osgi" autoStart="true" startLevel="0" />
+      <plugin id="org.talend.maven.resolver" autoStart="true" startLevel="0" />
+   </configurations>
 
 </product>
