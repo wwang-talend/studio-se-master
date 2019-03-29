@@ -255,18 +255,6 @@
                             <jgit.dirtyWorkingTree>ignore</jgit.dirtyWorkingTree>
                         </configuration>
                     </plugin>
-                    <plugin>
-                        <groupId>org.eclipse.tycho</groupId>
-                        <artifactId>tycho-p2-plugin</artifactId>
-                        <version>${tycho.version}</version>
-                        <configuration>
-                        <baselineRepositories>
-                            <repository>
-                            <url>http://localhost:8080/p2site/</url>
-                            </repository>
-                        </baselineRepositories>
-                        </configuration>
-                    </plugin>
                      </plugins>
             </build>
         </profile>
