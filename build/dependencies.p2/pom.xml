@@ -12,6 +12,7 @@
         <components.version>0.26.0-SNAPSHOT</components.version>
         <daikon.version>0.31.4-SNAPSHOT</daikon.version>
         <dataquality.lib.version>6.4.0-SNAPSHOT</dataquality.lib.version>
+        <fasterxml.jackson.version>2.9.8</fasterxml.jackson.version>
     </properties>
 
     <distributionManagement>
