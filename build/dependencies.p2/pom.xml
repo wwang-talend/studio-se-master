@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<parent>
-		<groupId>org.talend.studio</groupId>
-		<artifactId>studio-bom</artifactId>
-		<version>7.2.1-SNAPSHOT</version>
-                <relativePath>../../build/talend.studio.bom</relativePath>
-	</parent>
     <groupId>org.talend.repo</groupId>
     <artifactId>dependencies.p2</artifactId>
     <version>7.2.1-SNAPSHOT</version>
@@ -16,6 +10,7 @@
         <components.version>0.27.0-SNAPSHOT</components.version>
         <dataquality.lib.version>6.4.1-SNAPSHOT</dataquality.lib.version>
         <fasterxml.jackson.version>2.9.8</fasterxml.jackson.version>
+        <daikon.version>0.31.5-SNAPSHOT</daikon.version>
     </properties>
 
     <distributionManagement>
