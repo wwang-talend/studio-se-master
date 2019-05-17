@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <modelVersion>4.0.0</modelVersion>
+	<modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.talend.studio</groupId>
+        <artifactId>studio-bom</artifactId>
+        <version>7.2.1-SNAPSHOT</version>
+    </parent>
     <groupId>org.talend.studio</groupId>
     <artifactId>parent-pom</artifactId>
     <version>7.2.1-SNAPSHOT</version>
@@ -16,7 +21,7 @@
         <!-- maven.compatible.version is either ${base.version}-SNAPSHOT (snapshots), ${base.version}-<suffix> (milestones), or ${base.version} (GA)-->
         <maven.compatible.version>${base.version}-SNAPSHOT</maven.compatible.version>
         <repo.type>Snapshot</repo.type>
-	<doc.version>7.2.1-SNAPSHOT</doc.version>
+		<doc.version>7.2.1-SNAPSHOT</doc.version>
         <talend.nexus.host>https://artifacts-oss.talend.com</talend.nexus.host>
         <talend.nexus.url>${talend.nexus.host}/nexus/content/repositories</talend.nexus.url>
         <talend.nexus.p2unzip.url>${talend.nexus.host}/nexus/content/unzip</talend.nexus.p2unzip.url>
