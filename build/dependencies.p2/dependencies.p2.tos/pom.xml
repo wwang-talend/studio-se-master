@@ -52,16 +52,6 @@
 		</dependency>
 		<dependency>
 			<groupId>org.talend.dataquality</groupId>
-			<artifactId>dataquality-semantic-model</artifactId>
-			<version>${dataquality.lib.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>org.talend.dataquality</groupId>
-			<artifactId>dataquality-semantic</artifactId>
-			<version>${dataquality.lib.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>org.talend.dataquality</groupId>
 			<artifactId>dataquality-statistics</artifactId>
 			<version>${dataquality.lib.version}</version>
 		</dependency>
