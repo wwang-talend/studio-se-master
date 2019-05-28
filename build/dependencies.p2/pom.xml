@@ -9,7 +9,7 @@
         <talend.nexus.host>https://artifacts-oss.talend.com</talend.nexus.host>
         <components.version>0.27.0-SNAPSHOT</components.version>
         <dataquality.lib.version>7.0.0-SNAPSHOT</dataquality.lib.version>
-        <fasterxml.jackson.version>2.9.8</fasterxml.jackson.version>
+        <fasterxml.jackson.version>2.9.9</fasterxml.jackson.version>
         <daikon.version>0.31.5-SNAPSHOT</daikon.version>
     </properties>
 
