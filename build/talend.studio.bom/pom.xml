@@ -10,7 +10,7 @@
     <name>studio bom</name>
     
     <properties>
-        <daikon.version>0.31.5-SNAPSHOT</daikon.version>
+        <daikon.version>0.31.6</daikon.version>
     </properties>
     
 </project>
