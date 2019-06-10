@@ -13,8 +13,8 @@ It is a simple git repo but allows working with all Talend Studio open source re
 Install GitSlave
 ================
 GitSlave is the tool you can use to perform multi-repo command, in order to use it to its full potential please
-install : 
-* perl 
+install :
+* perl
 * clone this repostitory locally if not already done.
 * move the folder tools/gitslave-2.0.2 to you own user folders.
 * Then you can make an alias to the main script called "gits" (use gits_for_mac if you are on a mac).
@@ -25,7 +25,7 @@ The list of repositories handled by this gitslave repo can be found in the file 
 All Gitslave command are available hre : http://gitslave.sourceforge.net/gits-man-page.html
 
 if you want to dowload (clone) all slave studio repositories, use the command
-        
+
         gits populate --with-ifpresent
 
 should you want to download a set of slave repositories, use
@@ -41,7 +41,7 @@ You will find the list of repositories in root [.gitslave](../master/.gitslave) 
 Build The Open Source Studio
 ================
 To build the Studio you may need to increase the java memory heap size used, therefor you need to setup a specific Maven environment variable with the following values assuming you have anought ram on you machine :)
-here is how to do it on linux or mac 
+here is how to do it on linux or mac
 ```
 export MAVEN_OPTS='-Xmx8000m -XX:MaxPermSize=512m -XX:-UseConcMarkSweepGC'
 ```
@@ -75,11 +75,11 @@ If you want to only build one or any number of products you may use one or many 
 -Dtos.bd=true
 -Dtos.di=true
 -Dtos.dq=true
--Dtos.mdm=true 
+-Dtos.mdm=true
 -Dtos.esb=true
 ```
 
-## Support 
+## Support
 
 You can ask for help on our [Forum](http://www.talend.com/services/global-technical-support).
 
@@ -98,6 +98,6 @@ See the [CONTRIBUTORS.md](./CONTRIBUTORS.md) file for details.
 
 ## License
 
-Copyright (c) 2006-2015 Talend
+Copyright (c) 2006-2019 Talend
 
 Licensed under the Apache v2 and GPLv2 License
