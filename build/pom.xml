@@ -44,7 +44,6 @@
 				<module>talend.studio.tos.bd.product</module>
 				<module>talend.studio.tos.di.product</module>
 				<module>talend.studio.tos.dq.product</module>
-				<module>talend.studio.tos.mdm.product</module>
 				<module>talend.studio.tos.esb.product</module>
 			</modules>
 		</profile>
@@ -60,7 +59,6 @@
 				<module>talend.studio.tos.bd.product</module>
 				<module>talend.studio.tos.di.product</module>
 				<module>talend.studio.tos.dq.product</module>
-				<module>talend.studio.tos.mdm.product</module>
 				<module>talend.studio.tos.esb.product</module>
 				<module>talend.studio.tos.all.p2.product</module>
 			</modules>
@@ -131,18 +129,6 @@
 			</activation>
 			<modules>
 				<module>talend.studio.tos.dq.product</module>
-			</modules>
-		</profile>
-		<profile>
-			<id>tos.mdm.product</id>
-			<activation>
-				<property>
-					<name>tos.mdm</name>
-					<value>true</value>
-				</property>
-			</activation>
-			<modules>
-				<module>talend.studio.tos.mdm.product</module>
 			</modules>
 		</profile>
 		<profile>

@@ -75,7 +75,6 @@ If you want to only build one or any number of products you may use one or many 
 -Dtos.bd=true
 -Dtos.di=true
 -Dtos.dq=true
--Dtos.mdm=true
 -Dtos.esb=true
 ```
 
