@@ -166,7 +166,7 @@
                             <type>eclipse-plugin</type>
                             <id>org.eclipse.jdt.core</id>
                             <restrictTo>
-                                <version>3.16.0.xx-201812291959-e2018-12-RELEASE</version>
+                                <version>3.16.0.xx-201903290056-e1812-RELEASE</version>
                             </restrictTo>
                         </filter>
 
