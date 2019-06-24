@@ -4,7 +4,7 @@
     <parent>
         <groupId>org.talend.studio</groupId>
         <artifactId>parent-pom</artifactId>
-        <version>7.2.1-SNAPSHOT</version>
+        <version>7.3.1-SNAPSHOT</version>
         <relativePath />
     </parent>
 
@@ -176,7 +176,7 @@
 									<artifactId>studio-add-conf</artifactId>
 									<version>7.2.1-SNAPSHOT</version>
 									<type>zip</type>
-									<classifier></classifier>
+									<classifier />
 									<overWrite>true</overWrite>
 									<outputDirectory>${studio.dir}/configuration</outputDirectory>
 								</artifactItem>
@@ -506,10 +506,10 @@
                                                 <echo file="${storage}/lastnb.txt" append="true">http://newbuild.talend.com/builds/${product.build.path}/${product.final.name}.zip${line.separator}</echo>
                                             </then>
                                         </if>
-                                        <exec executable="openssl" dir="${product.dir}" outputproperty="sha256" >
+                                        <exec executable="openssl" dir="${product.dir}" outputproperty="sha256">
                                             <arg line="dgst" />
                                             <arg line="-sha256" />
-                                            <arg line="${product.final.name}.zip"/>
+                                            <arg line="${product.final.name}.zip" />
                                         </exec>
                                         <echo file="${product.dir}/${product.final.name}.zip.sha256" append="false">${sha256}</echo>
                                     </target>
