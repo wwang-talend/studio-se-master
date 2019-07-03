@@ -7,10 +7,10 @@
     <packaging>pom</packaging>
     <properties>
         <talend.nexus.host>https://artifacts-oss.talend.com</talend.nexus.host>
-        <components.version>0.27.3</components.version>
+        <components.version>0.28.0-SNAPSHOT</components.version>
         <dataquality.lib.version>7.0.1</dataquality.lib.version>
         <fasterxml.jackson.version>2.9.9</fasterxml.jackson.version>
-        <daikon.version>0.31.7</daikon.version>
+        <daikon.version>0.31.9-SNAPSHOT</daikon.version>
     </properties>
 
     <distributionManagement>
