@@ -8,7 +8,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <tycho.version>0.22.0</tycho.version>
+        <tycho.version>1.5.1</tycho.version>
         <tycho-extras.version>${tycho.version}</tycho-extras.version>
         <base.version>7.3.1</base.version>
         <!-- osgi.compatible.version is either ${base.version}-SNAPSHOT (snapshots), ${base.version}.<suffix> (milestones), or ${base.version} (GA)-->
@@ -199,6 +199,7 @@
                     <compilerVersion>1.8</compilerVersion>
                     <source>1.8</source>
                     <target>1.8</target>
+                    <useProjectSettings>false</useProjectSettings>
                 </configuration>
             </plugin>
         </plugins>
