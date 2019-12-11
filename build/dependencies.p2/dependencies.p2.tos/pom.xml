@@ -344,27 +344,27 @@
 		<dependency>
 			<groupId>com.fasterxml.jackson.dataformat</groupId>
 			<artifactId>jackson-dataformat-xml</artifactId>
-			<version>${fasterxml.jackson.version}</version>
+			<version>${fasterxml.jackson.bonita.compatible.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>com.fasterxml.jackson.dataformat</groupId>
 			<artifactId>jackson-dataformat-yaml</artifactId>
-			<version>${fasterxml.jackson.version}</version>
+			<version>${fasterxml.jackson.bonita.compatible.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>com.fasterxml.jackson.dataformat</groupId>
 			<artifactId>jackson-dataformat-csv</artifactId>
-			<version>${fasterxml.jackson.version}</version>
+			<version>${fasterxml.jackson.bonita.compatible.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>com.fasterxml.jackson.dataformat</groupId>
 			<artifactId>jackson-dataformat-smile</artifactId>
-			<version>${fasterxml.jackson.version}</version>
+			<version>${fasterxml.jackson.bonita.compatible.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>com.fasterxml.jackson.module</groupId>
 			<artifactId>jackson-module-jaxb-annotations</artifactId>
-			<version>${fasterxml.jackson.version}</version>
+			<version>${fasterxml.jackson.bonita.compatible.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.yaml</groupId>
@@ -375,6 +375,11 @@
 			<groupId>org.codehaus.woodstox</groupId>
 			<artifactId>stax2-api</artifactId>
 			<version>4.2</version>
+		</dependency>
+		<dependency>
+			<groupId>com.fasterxml.woodstox</groupId>
+			<artifactId>woodstox-core</artifactId>
+			<version>5.3.0</version>
 		</dependency>
 	</dependencies>
 

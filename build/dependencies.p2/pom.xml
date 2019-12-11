@@ -10,6 +10,8 @@
         <components.version>0.28.0-SNAPSHOT</components.version>
         <dataquality.lib.version>7.4.1-SNAPSHOT</dataquality.lib.version>
         <fasterxml.jackson.version>2.10.1</fasterxml.jackson.version>
+        <!-- jackson dataformat and jaxb should use version 2.9.10 to make studio compatible with bonita -->
+        <fasterxml.jackson.bonita.compatible.version>2.9.10</fasterxml.jackson.bonita.compatible.version>
         <daikon.version>0.31.10-SNAPSHOT</daikon.version>
     </properties>
 
